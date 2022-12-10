@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    ViewData["Professor"] = "Nelio Alves";
+    ViewData["Message"] = "Sales Web MVC";
+    ViewData["Course"] = "C# Completo Programação Orientada a Objetos";
+    ViewData["Date"] = 2022;
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Message"]</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>@ViewData["Professor"] - @ViewData["Course"] - @ViewData["Date"]</p>
+</div>
