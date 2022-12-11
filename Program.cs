@@ -4,6 +4,7 @@ using SalesWebMvc.Data;
 using System.Configuration;
 using Pomelo.EntityFrameworkCore.MySql;
 using Microsoft.Extensions.Options;
+using SalesWebMvc.Services;
 
 namespace SalesWebMvc
 {
@@ -20,6 +21,8 @@ namespace SalesWebMvc
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddScoped<SellerService>();
 
             var app = builder.Build();
             
