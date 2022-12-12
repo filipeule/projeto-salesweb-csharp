@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SalesWebMvc.Models;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace SalesWebMvc.Data
 {
